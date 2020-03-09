@@ -103,6 +103,9 @@
             {{ if $.Site.Params.github }}
               <a href="{{ $.Site.Params.github }}" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>    
             {{ end }}
+            {{ if $.Site.Params.gitlab }}
+              <a href="{{ $.Site.Params.gitlab }}" target="_blank" rel="noopener"><i class="fab fa-gitlab pr-1" aria-hidden="true"></i></a>    
+            {{ end }}  
             {{ if $.Site.Params.linkedin }}
               <a href="{{ $.Site.Params.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin pr-1" aria-hidden="true"></i></a>
             {{ end }}
@@ -132,8 +135,8 @@
                 <a href="mailto:{{ $.Site.Params.email }}"><i class="far fa-envelope-open pr-1" aria-hidden="true"></i></a>
             {{ end }}
     
-            {{ if and $.Site.Params.include_rss $.RSSLink }}
-                <a href="{{ $.RSSLink }}"><i class="fas fa-rss pr-1" aria-hidden="true"></i></a>
+            {{ if and $.Site.Params.include_rss }}
+                <a href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}"><i class="fas fa-rss pr-1" aria-hidden="true"></i></a>
             {{ end }}
 
         </div>

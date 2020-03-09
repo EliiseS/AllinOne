@@ -74,6 +74,7 @@ pygmentsuseclasses         = true
   # links
   email                    = "you@email.com"
   github                   = "//github.com/you"
+  gitlab                   = "//gitlab.com/you"
   linkedin                 = "//linkedin.com/in/you"
   facebook                 = "//facebook.com/you"
   googleplus               = "//google.com/you"
