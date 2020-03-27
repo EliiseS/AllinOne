@@ -9,6 +9,8 @@ enableEmoji                = true
 hasCJKLanguage             = true
 summaryLength              = 200
 Paginate                   = 3
+# analytics
+GoogleAnalytics          = "your-google-analytic-id"
 
 theme                      = "AllinOne"
 title                      = "Orianna"
@@ -81,8 +83,6 @@ pygmentsuseclasses         = true
   px500                    = "//px500"
   instagram                = "//instagram.com/you"
   include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
-  
-  # analytics
-  googleAnalytics          = "your-google-analytic-id"
+
     
     
