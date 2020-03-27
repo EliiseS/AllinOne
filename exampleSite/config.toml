@@ -10,7 +10,7 @@ hasCJKLanguage             = true
 summaryLength              = 200
 Paginate                   = 3
 # analytics
-GoogleAnalytics          = "your-google-analytic-id"
+GoogleAnalytics            = "your-google-analytic-id"
 
 theme                      = "AllinOne"
 title                      = "Orianna"
