@@ -42,7 +42,9 @@
 
 
 <!-- Google Analytics -->
-{{ template "_internal/google_analytics_async.html" . }}
+{{ if not .Site.BuildDrafts }}
+  {{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
 
 <!-- mdb -->
 <script type="text/javascript">
