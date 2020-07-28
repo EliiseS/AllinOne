@@ -2,6 +2,11 @@
 
 Hugo theme - AllinOne.
 
+I've updated this theme to work with `Hugo 0.74` and I am maintaining this theme here. The themes previous repo can be found [here](https://github.com/orianna-zzo/AllinOne).
+
+> NB: Docs are out of date and are referencing the previous repo.
+
+
 [Demo](https://orianna-zzo.github.io/AllinOne-html/)
 
 Here are some screen shots.
