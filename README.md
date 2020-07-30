@@ -1,15 +1,16 @@
-# AllinOne
+# AllinOne - Hugo theme
 
-Hugo theme - AllinOne.
+This theme is an updated version of the [original AllinOne](https://github.com/orianna-zzo/AllinOne) theme by [Orianna](https://github.com/orianna-zzo). 
 
-I've updated this theme to work with `Hugo 0.74` and I am maintaining this theme here. The themes previous repo can be found [here](https://github.com/orianna-zzo/AllinOne).
+This theme has been updated to work with `Hugo 0.74`.
 
 > NB: Docs are out of date and are referencing the previous repo.
 
+## Preview
 
 [Demo](https://orianna-zzo.github.io/AllinOne-html/)
 
-Here are some screen shots.
+Here are some screen shots:
 
 ![Carousel](https://github.com/orianna-zzo/AllinOne/blob/master/images/screenshot.png)
 
