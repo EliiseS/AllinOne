@@ -51,7 +51,7 @@ description = [
   "Be myself.",
   "Love the wonderful world.",
   "Do the right things and be a better man.",
-] # appears in the site header when set to a non-empty string  
+] # appears in the site header when set to a non-empty string   
 faviconfile = "img/zheng.png" # from static/
 welcome_head = "Hello, World!" 
 welcome_word = "~ No Day But Today ~" 
@@ -75,6 +75,7 @@ katex = true
 # links
 email = "you@email.com" 
 facebook = "//facebook.com/you" 
+flickr = "//flickr.com/photos/you" 
 github = "//github.com/you" 
 gitlab = "//gitlab.com/you" 
 include_rss = true # include RSS <link> tag in <head> and show RSS icon
