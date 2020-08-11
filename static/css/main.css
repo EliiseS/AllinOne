@@ -619,8 +619,8 @@ Avatar
   }
 
   .px-5 {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
 
   .single-post {
