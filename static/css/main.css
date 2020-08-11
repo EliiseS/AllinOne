@@ -626,6 +626,10 @@ Avatar
   .single-post {
     padding: 2%;
   }
+  .single-post .post-heading {
+    font-size: 2rem;
+  }
+
   .toc-nav {
     padding: 10%;
   }
