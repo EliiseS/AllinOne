@@ -1,88 +1,85 @@
-baseURL                   = "https://example.com"
-builddrafts                = false
-languageCode               = "zn-Hans"
-canonifyurls               = true
-contentdir                 = "content"
-layoutdir                  = "layouts"
-publishdir                 = "public"
-enableEmoji                = true
-hasCJKLanguage             = true
-summaryLength              = 200
-Paginate                   = 3
+Paginate = 3
+baseURL = "https://example.com"
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+enableEmoji = true
+hasCJKLanguage = true
+languageCode = "zn-Hans"
+layoutdir = "layouts"
+publishdir = "public"
+summaryLength = 200
 # analytics
-GoogleAnalytics            = "your-google-analytic-id"
+GoogleAnalytics = "your-google-analytic-id"
 
-theme                      = "AllinOne"
-title                      = "Orianna"
+theme = "AllinOne"
+title = "Orianna"
 
-pygmentsuseclasses         = true
-
+pygmentsuseclasses = true
 
 [permalinks]
-  blog                     = "blog/:year-:month/:slug/"
-
+blog = "blog/:year-:month/:slug/"
 
 [taxonomies]
-  tag                      = "tags"
-  series                   = "series"
-  category                 = "categories"
-
+category = "categories"
+series = "series"
+tag = "tags"
 
 [menu]
-  [[menu.main]]
-    name                   = "Blog"
-    weight                 = -120
-    identifier             = "blog"
-    url                    = "blog/"  
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "blog/"
+weight = -120
 
-  [[menu.main]]
-    name                   = "Moment"
-    weight                 = -110
-    identifier             = "moment"
-    url                    = "moment/" 
+[[menu.main]]
+identifier = "moment"
+name = "Moment"
+url = "moment/"
+weight = -110
 
-  [[menu.main]]
-    name                   = "About"
-    weight                 = -100
-    identifier             = "about"
-    url                    = "about/"  
-
- 
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about/"
+weight = -100
 
 [params]
-  faviconfile              = "img/zheng.png"               # from static/
-  avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png 
-  author                   = "Orianna"
-  description              = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
-  welcome_head             = "Hello, World!"
-  welcome_word             = "~ No Day But Today ~"
+author = "Orianna" 
+avatar = "img/profile.jpg" # path to image in static dir e.g img/avatar.png 
+description = [
+  "Be myself.",
+  "Love the wonderful world.",
+  "Do the right things and be a better man.",
+] # appears in the site header when set to a non-empty string  
+faviconfile = "img/zheng.png" # from static/
+welcome_head = "Hello, World!" 
+welcome_word = "~ No Day But Today ~" 
 
-  latestpostscount         = 5                             # how many posts to display on the home page
-  bloggroupby              = 'month'
-  dateform                 = "Jan 2, 2006"
-  dateformfull             = "2006-01-02  Monday  15:04:05"
-  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+bloggroupby = 'month' 
+dateform = "Jan 2, 2006" 
+dateformfull = "2006-01-02  Monday  15:04:05" 
+latestpostscount = 5 # how many posts to display on the home page
+noshowreadtime = false # if true, don't show "<x> minutes read" in posts
 
-  # slides
-  slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
-  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+# slides
+slidesDirPath = "themes/AllinOne/static/img/header-slides" # path to image in local dir (path for hugo)
+slidesDirPathURL = "img/header-slides" # path to image in static dir (for static pages)
 
-  # highlighting 
-  highlightjs              = true
+# highlighting 
+highlightjs = true
 
-  # latex
-  katex                    = true
+# latex
+katex = true
 
-  # links
-  email                    = "you@email.com"
-  github                   = "//github.com/you"
-  gitlab                   = "//gitlab.com/you"
-  linkedin                 = "//linkedin.com/in/you"
-  facebook                 = "//facebook.com/you"
-  twitter                  = "//twitter.com/you" 
-  px500                    = "//px500"
-  instagram                = "//instagram.com/you"
-  include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
-
-    
-    
+# links
+email = "you@email.com" 
+facebook = "//facebook.com/you" 
+github = "//github.com/you" 
+gitlab = "//gitlab.com/you" 
+include_rss = true # include RSS <link> tag in <head> and show RSS icon
+instagram = "//instagram.com/you" 
+linkedin = "//linkedin.com/in/you" 
+medium = "//medium.com/you" 
+px500 = "//px500" 
+twitter = "//twitter.com/you"

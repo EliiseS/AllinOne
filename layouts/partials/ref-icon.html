@@ -27,6 +27,10 @@
         <a href="{{ $.Site.Params.instagram }}" target="_blank" rel="noopener me"><i class="fab fa-instagram pr-1" aria-hidden="true"></i></a>
     {{ end }}
 
+    {{ if .Site.Params.medium }}
+      <a href="{{ $.Site.Params.medium }}" target="_blank" rel="noopener me"><i class="fab fa-medium pr-1" aria-hidden="true"></i></a>
+    {{ end }}
+
     {{ if $.Site.Params.px500 }}
         <a href="{{ $.Site.Params.px500 }}" target="_blank" rel="noopener me"><i class="fab fa-500px pr-1" aria-hidden="true"></i></a>
     {{ end }}
