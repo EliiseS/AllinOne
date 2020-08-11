@@ -115,7 +115,7 @@ a:active .active-color {
 
 .single-post {
   /* margin: 1.5rem 1rem 2rem 3rem; */
-  margin: 3% 2% 4% 5%;
+  margin: 3%;
   /* padding: 4rem 6rem; */
   padding: 5.5% 8.4%;
 }
@@ -307,6 +307,24 @@ post card
 Markdown
 
 */
+
+.dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
 
 .markdown h1,
 .markdown h2,
@@ -591,6 +609,31 @@ Avatar
     width: 100px;
   }
 
+  .post-main-wrapper {
+    margin: initial;
+  }
+
+  .sidebar-padding {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .single-post {
+    padding: 2%;
+  }
+  .toc-nav {
+    padding: 10%;
+  }
+
+  .navbar {
+    padding: unset;
+  }
+
   .avatar-md {
     float: none !important;
     width: 12vmin;
@@ -615,9 +658,6 @@ Avatar
   .carousel-content div {
     font-size: 1rem !important;
   }
-}
-
-@media (min-width: 767px) and (orientation: landscape) {
 }
 
 /* 横屏时高度小于等于576px */
