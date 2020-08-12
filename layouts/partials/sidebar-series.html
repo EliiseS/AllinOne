@@ -1,4 +1,4 @@
-{{ range where .Pages ".Params.series" "ne" nil }}
+{{ range where .Site.RegularPages ".Params.series" "ne" nil }}
   {{ $.Scratch.Add "series" (apply .Params.series "lower" ".") }}
 {{ end }}
 

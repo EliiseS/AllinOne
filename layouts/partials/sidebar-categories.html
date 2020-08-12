@@ -1,5 +1,5 @@
 {{ $kind := .Kind }}
-{{ range where .Pages ".Params.categories" "ne" nil }}
+{{ range where .Site.RegularPages ".Params.categories" "ne" nil }}
   {{ $.Scratch.Add "categories"  (apply .Params.categories "lower" ".") }}
 {{ end }}
 
