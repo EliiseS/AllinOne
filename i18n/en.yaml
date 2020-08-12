@@ -1,4 +1,7 @@
 ---
+- id: home
+  translation: "Home"
+
 - id: latestPosts
   translation: "Latest Posts"
 
