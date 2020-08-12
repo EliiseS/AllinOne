@@ -6,20 +6,18 @@
   translation: "Oops! Page Not Found..."
 
 - id: readingTime
-  translation:
-    one: "One minute read"
-    other: "{{ .Count }} minutes read"
+  translation: "{{ .Count }} minute read"
 
 - id: return
   translation: "Return"
 
 - id: previousPost
   translation: "Previous"
-  
+
 - id: nextPost
-  translation: "Next"  
+  translation: "Next"
 
 - id: postCount
-  translation: 
+  translation:
     one: "One post"
     other: "{{ .Count }} posts"
