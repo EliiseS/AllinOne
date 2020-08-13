@@ -30,6 +30,10 @@
   <a href="{{ $.Site.Params.medium }}" target="_blank" rel="noopener me"><i class="fab fa-medium pr-1" aria-hidden="true"></i></a>
 {{ end }}
 
+{{ if .Site.Params.dev }}
+  <a href="{{ $.Site.Params.devto }}" target="_blank" rel="noopener me"><i class="fab fa-dev pr-1" aria-hidden="true"></i></a>
+{{ end }}
+
 {{ if .Site.Params.flickr }}
   <a href="{{ $.Site.Params.flickr }}" target="_blank" rel="noopener"><i class="fab fa-flickr mr-3" aria-hidden="true"></i></a>
 {{ end }}
