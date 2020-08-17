@@ -1,7 +1,7 @@
 {{ define "main" }}
   <main class="post-main-wrapper px-5">
     <!-- <div class="container"> -->
-    <div class="row">
+    <div class="row wide-screen">
 
       {{ $single := add (add (len (where .Pages ".Params.categories" "ne" nil)) (len (where .Pages ".Params.series" "ne" nil)) ) (len (where .Pages ".Params.tags" "ne" nil)) }}
       {{ if gt $single 0 }}
