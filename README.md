@@ -53,14 +53,14 @@ From the root of your Hugo site, clone the theme into `themes/AllinOne` by runni
 
 ```sh
 # Clone theme into the themes/AllinOne directory
-$ git clone https://github.com/orianna-zzo/AllinOne.git themes/AllinOne
+$ git clone https://github.com/EliiseS/AllinOne.git themes/AllinOne
 ```
 
 ## Usage
 
 ### Configuration
 
-Please see the sample [`config.toml`](https://github.com/orianna-zzo/AllinOne/blob/master/exampleSite/config.toml). The theme is built on Hugo v0.46.
+Please see the sample [`config.toml`](https://github.com/EliiseS/AllinOne/blob/master/exampleSite/config.toml). The theme is built on Hugo v0.46.
 
 If you use this as a theme of your project website (not the root directory),make sure not to use a forward slash `/` in the beginning of a `PATH` in your `config.toml`, `img` in your post head and `url` in your data direcotory, because Hugo will turn it into a relative URL and the `absURL` function will have no effect.
 
