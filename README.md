@@ -1,6 +1,6 @@
 # AllinOne - Hugo theme
 
-This theme is an updated version of the [original AllinOne](https://github.com/orianna-zzo/AllinOne) theme by [Orianna](https://github.com/orianna-zzo). 
+This theme is an updated version of the [original AllinOne](https://github.com/orianna-zzo/AllinOne) theme by [Orianna](https://github.com/orianna-zzo).
 
 This theme has been updated to work with `Hugo 0.74`.
 
@@ -18,13 +18,12 @@ Here are some screen shots:
 
 ![Post](https://github.com/orianna-zzo/AllinOne/blob/master/images/screenshot3.png)
 
-
 ## Features
 
 - Responsive full image carousel (Responsive text layout on it should be improved)
 - Suited for blogging and personal webpages with static profile image (avatar) and website image (`faviconfile`)
 - Smooth scroll && hierarchical `Scrollspy` for table of contents (`h1~h4`)
-- Syntax highlighting with highlightjs 
+- Syntax highlighting with highlightjs
 - Katex for Latex
 - Google Analytics
 - Font Awesome 3.1.0
@@ -123,7 +122,7 @@ There are three ways to add summary to each post.
 
   Alternatively, you may add the \<!--more--\> summary divider where you want to split the article. Content that comes before the summary divider will be used as that content’s summary and stored in the `.Summary` page variable with all HTML formatting intact. The only extra work is add the \<!--more--\> summary divider.
 
-- User-defined Summary 
+- User-defined Summary
 
   You may want a specific summary for the post other than the front sentences of the content. In this case, you could but summary in the yaml head of the post with the parameter `summary`.
 
