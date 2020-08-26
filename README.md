@@ -4,7 +4,7 @@ This theme is an updated version of the [original AllinOne](https://github.com/o
 
 This theme has been updated to work with `Hugo 0.74`.
 
-> NB: Docs are out of date and are referencing the previous repo.
+> NB: Docs are out of date and are referencing the previous repository.
 
 ## Preview
 
@@ -21,31 +21,35 @@ Here are some screen shots:
 
 ## Features
 
-* Responsive full image carousel (Responsive text layout on it should be improved)
-* Suited for blogging and personal webpages with static profile image (avatar) and website image (faviconfile)
-* Smooth scroll && hierarchical TOC Scrollspy for content (h1~h4)
-* Syntax highlighting with highlightjs 
-* Katex for Latex
-* Google Analytics
-* Font Awesome 3.1.0
-* Built-in Tags, Series and Categories && show recomendations of the section in the sidebar
-* Built-in pagination for sections
-* Previous/Next post button
-* Post card list with summary (with/without an intro picture) && Series card list in the sidebar
+- Responsive full image carousel (Responsive text layout on it should be improved)
+- Suited for blogging and personal webpages with static profile image (avatar) and website image (`faviconfile`)
+- Smooth scroll && hierarchical `Scrollspy` for table of contents (`h1~h4`)
+- Syntax highlighting with highlightjs 
+- Katex for Latex
+- Google Analytics
+- Font Awesome 3.1.0
+- Built-in Tags, Series and Categories && show recommendations of the section in the sidebar
+- Built-in pagination for sections
+- Previous/Next post button
+- Post card list with summary (with/without an intro picture) && Series card list in the sidebar
 
 Most features are optional and can be individually enabled/disabled in your `config.toml`.
 
 ## Table of Contents
 
-* [Quick Start](#quick-start)
-* [Usage](#usage)
-  * [Configuration](#configuration)
-  * [Carousel Picture](#carousel-picture)
-  * [Post Intro Picture](#post-intro-picture)
-  * [Post Summary](#post-summary)
-  * [Series Intro Picture](#series-intro-picture)
-* [License](#license)
-* [Thanks](#thanks)
+- [AllinOne - Hugo theme](#allinone---hugo-theme)
+  - [Preview](#preview)
+  - [Features](#features)
+  - [Table of Contents](#table-of-contents)
+  - [Quick Start](#quick-start)
+  - [Usage](#usage)
+    - [Configuration](#configuration)
+    - [Carousel Picture](#carousel-picture)
+    - [Post Intro Picture](#post-intro-picture)
+    - [Post Summary](#post-summary)
+    - [Series Intro Picture](#series-intro-picture)
+  - [License](#license)
+  - [Thanks](#thanks)
 
 ## Quick Start
 
@@ -62,13 +66,13 @@ $ git clone https://github.com/orianna-zzo/AllinOne.git themes/AllinOne
 
 Please see the sample [`config.toml`](https://github.com/orianna-zzo/AllinOne/blob/master/exampleSite/config.toml). The theme is built on Hugo v0.46.
 
-If you use this as a theme of your project website (not the root directory),make sure not to use a forward slash `/` in the beginning of a `PATH` in your `config.toml`, `img` in your post head and `url` in your data direcotory, because Hugo will turn it into a relative URL and the `absURL` function will have no effect.
+If you use this as a theme of your project website (not the root directory),make sure not to use a forward slash `/` in the beginning of a `PATH` in your `config.toml`, `img` in your post head and `url` in your data directory, because Hugo will turn it into a relative URL and the `absURL` function will have no effect.
 
 ### Carousel Picture
 
-Set two params in `config.toml`, `slidesDirPath` and `slidesDirPathURL`.
+Set two parameters in `config.toml`, `slidesDirPath` and `slidesDirPathURL`.
 
-`slidesDirPath` sets the directory path for hugo server to search. `slidesDirPathURL` sets the rel url for the images.
+`slidesDirPath` sets the directory path for Hugo server to search. `slidesDirPathURL` sets the rel url for the images.
 
 Here are simple examples for quick start.
 
@@ -106,7 +110,8 @@ summary: "This is an example of adding an intro picture to the post. "
 ### Post Summary
 
 There are three ways to add summary to each post.
-* [Hugo-defined Summary Split](https://gohugo.io/content-management/summaries/)
+
+- [Hugo-defined Summary Split](https://gohugo.io/content-management/summaries/)
 
   By default, Hugo automatically takes the first 70 words of your content as its summary and stores it into the `.Summary` page variable for use. It is much easier with no additional work, but it might not the one you want.
 
@@ -114,13 +119,13 @@ There are three ways to add summary to each post.
 
   The length of text to show in a `.Summary` could be set as `summaryLength` in `config.toml`. [See here](https://gohugo.io/getting-started/configuration/)
 
-* [User-defined Summary Split](https://gohugo.io/content-management/summaries/)
+- [User-defined Summary Split](https://gohugo.io/content-management/summaries/)
 
   Alternatively, you may add the \<!--more--\> summary divider where you want to split the article. Content that comes before the summary divider will be used as that content’s summary and stored in the `.Summary` page variable with all HTML formatting intact. The only extra work is add the \<!--more--\> summary divider.
 
-* User-defined Summary 
+- User-defined Summary 
 
-  You may want a specific summary for the post other than the front sentences of the content. In this case, you could but summary in the yaml head of the post with the param name `summary`.
+  You may want a specific summary for the post other than the front sentences of the content. In this case, you could but summary in the yaml head of the post with the parameter `summary`.
 
 ### Series Intro Picture
 
@@ -140,7 +145,6 @@ img = "images/blog/2018-08/test5.jpg"
 summary = "How I build up my personal website"
 ```
 
-
 ## License
 
 Licensed under the MIT License. See the [LICENSE](https://github.com/orianna-zzo/AllinOne/blob/master/LICENSE) file for more details.
@@ -149,5 +153,5 @@ Licensed under the MIT License. See the [LICENSE](https://github.com/orianna-zzo
 
 Thanks to the following projects I learned from:
 
-* Hugo theme [cocoa](https://github.com/nishanths/cocoa-hugo-theme)
-* Material design for Bootstrap4 [mdb](https://mdbootstrap.com/)
+- Hugo theme [cocoa](https://github.com/nishanths/cocoa-hugo-theme)
+- [Material design for Bootstrap 4](https://mdbootstrap.com/)
