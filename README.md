@@ -63,7 +63,7 @@ $ git clone https://github.com/EliiseS/AllinOne.git themes/AllinOne
 
 ### Configuration
 
-Please see the sample [`config.toml`](https://github.com/EliiseS/AllinOne/blob/master/exampleSite/config.toml). The latest Hugo version this theme has been built on is `0.93.`.
+Please see the sample [`config.toml`](https://github.com/EliiseS/AllinOne/blob/master/exampleSite/config.toml). The latest Hugo version this theme has been built on is `0.92.0`.
 
 If you use this as a theme of your project website (not the root directory),make sure not to use a forward slash `/` in the beginning of a `PATH` in your `config.toml`, `img` in your post head and `url` in your data directory, because Hugo will turn it into a relative URL and the `absURL` function will have no effect.
 
