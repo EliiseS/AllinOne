@@ -9,8 +9,9 @@ languageCode = "zn-Hans"
 layoutdir = "layouts"
 publishdir = "public"
 summaryLength = 200
-# analytics
-GoogleAnalytics = "your-google-analytic-id"
+
+# Google Analytics
+googleAnalytics = "your-google-analytic-id"
 
 theme = "AllinOne"
 title = "Orianna"

@@ -81,4 +81,9 @@
     <link rel="stylesheet" href="{{ "css/vendors/highlight/github-gist.css"| absURL }}">
   {{ end }}
 
+  <!-- Google Analytics -->
+  {{ if not .Site.IsServer }}
+    {{ template "_internal/google_analytics_async.html" . }}
+  {{ end }}
+
 </head>
