@@ -24,3 +24,12 @@
   translation:
     one: "One post"
     other: "{{ .Count }} posts"
+
+- id: sidebarCategories
+  translation: "Categories"
+
+- id: sidebarFeaturedTags
+  translation: "Featured Tags"
+
+- id: sidebarRecommendedSeries
+  translation: "Recommended Series"

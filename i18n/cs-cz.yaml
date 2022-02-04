@@ -26,3 +26,12 @@
   translation:
     one: "1 příspěvek"
     other: "{{ .Count }} příspěvky"
+
+- id: sidebarCategories
+  translation: "Kategorie"
+
+- id: sidebarFeaturedTags
+  translation: "Atraktivní tagy"
+
+- id: sidebarRecommendedSeries
+  translation: "Doporučené série"

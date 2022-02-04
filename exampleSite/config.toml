@@ -6,6 +6,8 @@ contentdir = "content"
 enableEmoji = true
 hasCJKLanguage = true
 languageCode = "zh-Hans"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
 layoutdir = "layouts"
 publishdir = "public"
 summaryLength = 200
